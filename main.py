@@ -48,6 +48,5 @@ def get_shop_list_by_dishes(dishes, person_count):
     return shop_list
 
 
-dishes = []
 # pprint(read_file('recipes.txt'))
 pprint(get_shop_list_by_dishes(['Запеченный картофель', 'Омлет', 'Фахитос'], 2))
